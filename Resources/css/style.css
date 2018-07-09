@@ -35,11 +35,10 @@ section{
     padding:80px 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
    
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 h1 {
@@ -48,6 +47,7 @@ h1 {
     color: #fff;
     font-size: 240%;
     word-spacing: 4px;
+    letter-spacing: 1px; 
 }
 
 h2 {
@@ -55,6 +55,8 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    letter-spacing: 1px;
+
 }
 
 h2:after {
@@ -67,11 +69,30 @@ h2:after {
     margin-top: 30px;
 }
 
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+
 /* -----PARAGRAPH----- */
 .long-copy{
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+}
+
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/* -----ICONS----- */
+.icon-big {
+    font-size: 350%;
+    display:block;
+    color:  #e67e22;
+    margin-bottom: 10px;
 }
 
 /* -----BUTTONS----- */
@@ -142,7 +163,6 @@ header{
     float: left;
     margin-top: 20px;
     margin-left: 10%;
- 
 }
 
 .main-nav{
@@ -171,4 +191,28 @@ header{
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom:2px solid #e67e22
+}
+
+/* --------------------------------------------------- */
+/* MEALS */
+/* --------------------------------------------------- */
+
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.meal-photo{
+    width: 100%;
+    margin:0;
+}
+
+.meal-photo img{
+    width: 100%;
+    height: auto;
 }
